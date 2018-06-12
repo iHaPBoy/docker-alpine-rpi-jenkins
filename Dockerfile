@@ -4,7 +4,7 @@ MAINTAINER chrisanthropic <ctarwater@gmail.com>
 # docker run -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /home/jenkins:/var/jenkins_home ctarwater/armhf-alpine-rpi-jenkins
 
 # ENV VARS
-ENV JENKINS_VERSION 2.73.1
+ENV JENKINS_VERSION 2.121.1
 
 RUN echo "http://dl-6.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories && \
     apk upgrade --update && \
